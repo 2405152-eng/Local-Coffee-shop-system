@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brew Haven | Melbourne Coffee</title>
+    <meta
+      name="description"
+      content="Brew Haven coffee shop landing page inspired by an Australian café experience."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Archivo:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="browser-bar">
+        <div class="traffic-lights" aria-hidden="true">
+          <span class="red"></span>
+          <span class="yellow"></span>
+          <span class="green"></span>
+        </div>
+      </div>
+
+      <header class="topbar">
+        <div class="brand" aria-label="Brew Haven home">
+          <svg class="brand-icon" viewBox="0 0 64 64" aria-hidden="true">
+            <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 25h24v15c0 8-5 13-12 13s-12-5-12-13V25Z"/>
+              <path d="M44 25h4c5 0 9 4 9 9s-4 9-9 9h-4"/>
+              <path d="M22 20c0-6 4-10 10-10s10 4 10 10"/>
+              <path d="M28 17c0-3 2-5 5-5s5 2 5 5"/>
+              <path d="M26 13c-3-3-5-3-7-2"/>
+              <path d="M38 12c3-2 5-2 7 0"/>
+            </g>
+          </svg>
+          <span>Brew Haven</span>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#loyalty">Loyalty</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-copy">
+            <h1>Great Coffee,<br />Better Days</h1>
+            <p>Freshly brewed. Always.</p>
+            <button class="cta-button" type="button">Order Now</button>
+          </div>
+
+          <div class="hero-art" aria-label="Coffee cup illustration">
+            <svg viewBox="0 0 360 260" aria-hidden="true">
+              <g fill="none" stroke="#1d3153" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M84 119c0-28 22-50 50-50h82c28 0 50 22 50 50v16c0 40-31 76-72 76h-38c-41 0-72-36-72-76v-16Z"/>
+                <path d="M244 127h22c19 0 35 15 35 35s-16 35-35 35h-22"/>
+                <path d="M98 151c0 20 16 36 36 36h91c20 0 36-16 36-36"/>
+                <path d="M136 88c-4-22-26-38-52-39"/>
+                <path d="M156 88c-7-23-31-39-58-40"/>
+                <path d="M176 88c-4-22-27-38-51-39"/>
+                <path d="M194 86c4-22 27-38 52-39"/>
+                <path d="M208 86c8-23 32-39 59-40"/>
+                <path d="M226 86c4-22 27-38 51-39"/>
+              </g>
+            </svg>
+          </div>
+        </section>
+
+        <section class="menu-section" id="menu">
+          <h2>Our Menu</h2>
+
+          <div class="menu-grid">
+            <article class="menu-card">
+              <div class="coffee-icon espresso" aria-hidden="true">
+                <svg viewBox="0 0 120 120">
+                  <g fill="none" stroke="#1d3153" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M30 42h60v28c0 18-12 32-30 32S30 88 30 70V42Z"/>
+                    <path d="M90 50h11c10 0 18 8 18 18s-8 18-18 18h-11"/>
+                    <path d="M38 34c0-9 7-16 16-16h12c9 0 16 7 16 16"/>
+                    <path d="M44 36s-6-10-15-10"/>
+                    <path d="M68 38s-5-13-16-13"/>
+                    <path d="M48 82c8 7 16 10 24 10"/>
+                  </g>
+                </svg>
+              </div>
+              <h3>Flat White</h3>
+              <p>$5.50</p>
+              <button type="button" class="order-button">Order</button>
+            </article>
+
+            <article class="menu-card">
+              <div class="coffee-icon latte" aria-hidden="true">
+                <svg viewBox="0 0 120 120">
+                  <g fill="none" stroke="#1d3153" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M30 42h60v27c0 17-12 31-30 31S30 86 30 69V42Z"/>
+                    <path d="M90 50h11c10 0 18 8 18 18s-8 18-18 18h-11"/>
+                    <path d="M38 36c0-9 7-16 16-16h12c9 0 16 7 16 16"/>
+                    <path d="M40 55c10 0 18 8 18 18"/>
+                    <path d="M54 56c10 0 18 8 18 18"/>
+                    <path d="M68 55c10 0 18 8 18 18"/>
+                    <path d="M48 80c9 8 18 12 24 12"/>
+                  </g>
+                </svg>
+              </div>
+              <h3>Long Black</h3>
+              <p>$5.80</p>
+              <button type="button" class="order-button">Order</button>
+            </article>
+
+            <article class="menu-card">
+              <div class="coffee-icon cappuccino" aria-hidden="true">
+                <svg viewBox="0 0 120 120">
+                  <g fill="none" stroke="#1d3153" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M30 42h60v27c0 18-12 32-30 32S30 87 30 69V42Z"/>
+                    <path d="M90 50h11c10 0 18 8 18 18s-8 18-18 18h-11"/>
+                    <path d="M38 36c0-9 7-16 16-16h12c9 0 16 7 16 16"/>
+                    <path d="M40 54c12 0 20 8 20 20"/>
+                    <path d="M61 52c13 0 20 9 20 20"/>
+                    <path d="M46 75c8 7 18 11 28 11"/>
+                  </g>
+                </svg>
+              </div>
+              <h3>Cappuccino</h3>
+              <p>$6.20</p>
+              <button type="button" class="order-button">Order</button>
+            </article>
+
+            <article class="menu-card">
+              <div class="coffee-icon iced" aria-hidden="true">
+                <svg viewBox="0 0 120 120">
+                  <g fill="none" stroke="#1d3153" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M38 28h42v12h8v28c0 18-9 32-29 32S38 86 38 68V40h8V28Z"/>
+                    <path d="M36 28h48"/>
+                    <path d="M52 68h16"/>
+                    <path d="M42 42c10 2 16 2 25 0"/>
+                    <path d="M58 42c10 2 16 2 25 0"/>
+                    <path d="M48 95h24"/>
+                    <path d="M42 106h36"/>
+                  </g>
+                </svg>
+              </div>
+              <h3>Iced Latte</h3>
+              <p>$6.20</p>
+              <button type="button" class="order-button">Order</button>
+            </article>
+          </div>
+        </section>
+
+        <section class="order-panel-wrapper" id="loyalty">
+          <div class="order-panel">
+            <h2>Place Your Order</h2>
+            <form id="orderForm">
+              <div class="field-group">
+                <label for="name">Name:</label>
+                <input id="name" name="name" type="text" placeholder="Enter your name" />
+              </div>
+
+              <div class="field-group">
+                <label for="coffee">Coffee:</label>
+                <select id="coffee" name="coffee">
+                  <option value="">Select coffee</option>
+                  <option>Flat White</option>
+                  <option>Long Black</option>
+                  <option>Cappuccino</option>
+                  <option>Iced Latte</option>
+                </select>
+              </div>
+
+              <div class="field-group">
+                <label for="quantity">Quantity:</label>
+                <input id="quantity" name="quantity" type="number" min="1" value="1" />
+              </div>
+
+              <div id="orderStatus" class="status-message" aria-live="polite"></div>
+
+              <button class="submit-button" type="submit">Submit Order</button>
+            </form>
+          </div>
+
+          <aside class="feedback-panel" id="about">
+            <h2>Customer Feedback</h2>
+            <div class="review-block">
+              <div class="avatar" aria-hidden="true">👤</div>
+              <div class="review-copy">
+                <div class="review-header">
+                  <span>Sarah M.</span>
+                  <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+                </div>
+                <p> Amazing coffee and great service. I’ll be back! </p>
+              </div>
+            </div>
+
+            <form id="reviewForm" class="review-form">
+              <input id="reviewInput" type="text" placeholder="Write your review..." aria-label="Write your review" />
+              <button type="submit">Submit</button>
+            </form>
+          </aside>
+        </section>
+      </main>
+
+      <footer class="site-footer" id="contact">
+        <div class="footer-location">
+          <span class="pin">📍</span>
+          <span>12 Smith St, Fitzroy, Melbourne</span>
+        </div>
+
+        <div class="footer-socials" aria-label="Social media links">
+          <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook">f</a>
+          <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">◎</a>
+          <a href="https://x.com" target="_blank" rel="noreferrer" aria-label="X">𝕏</a>
+        </div>
+
+        <div class="copyright">© <span id="year">2025</span> Brew Haven</div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
